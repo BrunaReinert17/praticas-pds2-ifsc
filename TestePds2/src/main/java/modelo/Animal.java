@@ -2,15 +2,15 @@ package modelo;
 
 public class Animal {
 
-	private int id;
+	private int idAnimal;
 	private String marca;
 	private String especie;
 	
 	public int getId() {
-		return id;
+		return idAnimal;
 	}
 	public void setId(int id) {
-		this.id = id;
+		this.idAnimal = id;
 	}
 	public String getMarca() {
 		return marca;
