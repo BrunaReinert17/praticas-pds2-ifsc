@@ -3,7 +3,7 @@ CREATE DATABASE IF NOT EXISTS banco_teste;
 USE banco_teste;
 
 CREATE TABLE IF NOT EXISTS `animal` (
-  `id` INT AUTO_INCREMENT NOT NULL,
+  `idAnimal` INT AUTO_INCREMENT NOT NULL,
   `marca` VARCHAR(45) NOT NULL,
   `especie` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`id`)

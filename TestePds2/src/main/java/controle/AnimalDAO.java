@@ -83,8 +83,9 @@ public class AnimalDAO {
 			return true;
 			
 		} catch (SQLException e) {
-			
 			e.printStackTrace();
+		}finally {
+			c.fecharConexao();
 		}
 		
 		return false;
